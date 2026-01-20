@@ -1,0 +1,9 @@
+/* App-wide styles */
+#root, html, body {
+  height: 100%;
+}
+
+.react-flow__handle {
+  width: 10px;
+  height: 10px;
+}

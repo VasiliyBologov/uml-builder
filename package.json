@@ -1,0 +1,30 @@
+{
+  "name": "uml-builder",
+  "version": "1.0.0",
+  "description": "Web Architecture Diagram Builder (MVP)",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "reactflow": "^11.10.3",
+    "html-to-image": "^1.11.11",
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^6.1.7",
+    "@mui/material": "^6.1.7",
+    "@reactflow/node-resizer": "^2.2.14"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.61",
+    "@types/react-dom": "^18.2.19",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.5.3",
+    "vite": "^5.0.0"
+  }
+}
